@@ -1,0 +1,47 @@
+PODS:
+  - A (1.0.0):
+    - B_Category
+    - CTMediator
+  - A_Category (1.0.0):
+    - CTMediator
+  - B_Category (1.0.0):
+    - CTMediator
+  - CTMediator (25)
+
+DEPENDENCIES:
+  - A (from `https://github.com/J0nphy/A.git`)
+  - A_Category (from `https://github.com/J0nphy/A_Category.git`)
+  - B_Category (from `https://github.com/J0nphy/B_Category.git`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  A:
+    :git: https://github.com/J0nphy/A.git
+  A_Category:
+    :git: https://github.com/J0nphy/A_Category.git
+  B_Category:
+    :git: https://github.com/J0nphy/B_Category.git
+
+CHECKOUT OPTIONS:
+  A:
+    :commit: faa6717979eac9b237154bfb72e8366c42379857
+    :git: https://github.com/J0nphy/A.git
+  A_Category:
+    :commit: 433155fc0e92b22aa4c58f006aacbcc63550f4d3
+    :git: https://github.com/J0nphy/A_Category.git
+  B_Category:
+    :commit: c51df9e1ece0f744374e8db8b57d7402ad5926bd
+    :git: https://github.com/J0nphy/B_Category.git
+
+SPEC CHECKSUMS:
+  A: f414b228f80bab2deee17fc1d7389a9e88d65379
+  A_Category: 0ea017ec5b4c1de737d16a4eb1988fe2f782d486
+  B_Category: 21c67023142f0713e2a4fb935db1fb227d00ab45
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+
+PODFILE CHECKSUM: 8b9dbac70055272211887a34ebb2d9645eb10476
+
+COCOAPODS: 1.8.3

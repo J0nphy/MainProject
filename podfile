@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+
+use_frameworks!
+
+target 'MainProject' do
+
+pod "A_Category", :git=> 'https://github.com/J0nphy/A_Category.git'
+pod "A", :git=> 'https://github.com/J0nphy/A.git'
+pod "B_Category", :git=> 'https://github.com/J0nphy/B_Category.git'
+
+end
